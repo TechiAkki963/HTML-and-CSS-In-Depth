@@ -19,3 +19,11 @@
     <li>Markup is for creating webpages / documents</li>
     <li>HTML is extremely important & relevant but is just the begining</li>
 </ul>
+
+<h2>What is CSS?</h2>
+<h3><strong>Cascading Style Sheets</strong></h3>
+<ul>    
+    <li> Styling / Stylesheet Language</li>
+    <li> Used for styling HTML elements</li>
+    <li> Can be extended with SAAS / LESS</li>
+</ul>
