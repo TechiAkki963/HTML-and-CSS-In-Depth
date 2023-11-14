@@ -5,6 +5,7 @@
 <ul>
     <li><strong>HTML</strong> is not a programming language</li>
 </ul>
+<table>
 <tr>
     <td>Hyper Text</td>
     <td>Markup</td>
@@ -13,3 +14,4 @@
     <td>a href=""</td>
     <td>markup is for tags</td>
 </tr>
+</table>
