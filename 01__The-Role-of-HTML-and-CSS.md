@@ -11,5 +11,5 @@
 </tr>
 <tr>
     <td>a href=""</td>
-    <td>markup is for tags </td>
+    <td>markup is for tags</td>
 </tr>
