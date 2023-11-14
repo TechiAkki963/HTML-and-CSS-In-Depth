@@ -15,3 +15,7 @@
     <td>markup is for tags</td>
 </tr>
 </table>
+<ul>
+    <li>Markup is for creating webpages / documents</li>
+    <li>HTML is extremely important & relevant but is just the begining</li>
+</ul>
