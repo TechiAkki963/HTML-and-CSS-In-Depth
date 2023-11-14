@@ -17,3 +17,6 @@
     <li>Domain names can be purchased from registrars and linked to your hosting account /web servers</li>
     <li>DNS is used to map IP addresses to domain names</li>
 </ul>
+
+<h3>Process of Loading Webpages</h3>
+<img src="/Content_Img/Process-of-loading-webpages.png">
