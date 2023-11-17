@@ -5,21 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form and Input</title>
 </head>
-<form action="process.php">
-    <div>
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name">
-    </div>
-    <div>
-        <label for="email">Email</label>
-        <input type="email" id="email" name="Email">
-    </div>
-    <div>
-        <label for="message">Message</label>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-    </div>
-</form>
+
 <body>
-    
+    <form action="process.php">
+        <!--**Text Input-->
+        <div>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" value="John Doe">
+        </div>
+
+
+         <!--**Email Input-->
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="Email" placeholder="enter an email id">
+        </div>
+
+
+         <!--**Message Input-->
+        <div>
+            <label for="message">Message</label><br>
+            <textarea name="message" id="message" cols="50" rows="5"></textarea>
+        </div>
+
+
+         <!--**Select Input-->
+        <div>
+            <label for="sex">Sex</label>
+            <select name="sex" id="sex">
+                <option value="male">Male</option>
+                <option value="female" selected>Female</option>
+                <option value="other">Others</option>
+            </select>
+        </div>
+
+         <!--**Age Input-->
+        <div>
+            <label for="age">Age</label><br>
+            <input type="number" id="age" name="age">
+        </div>
+
+
+
+         <!--**Birth Input-->
+        <div>
+            <label for="birthdate">BirthDate</label><br>
+            <input type="date" name="birthdate" id="birthdate">
+        </div>
+
+
+         <!--**Radio Button Input-->
+        <div>
+            <label for="membership">Membership</label>
+            <input type="radio" name="membership" value="simple" id="membership">Simple
+            <input type="radio" name="membership" value="standard" id="membership" checked>Standard
+            <input type="radio" name="membership" value="super" id="membership">Super
+        </div>
+
+
+
+         <!--**Checkbox Input-->
+        <div>
+            <label for="Qualified">Qualified</label>
+            <input type="checkbox" name="membership" value="bachelors" id="membership">Bachelors
+            <input type="checkbox" name="membership" value="Masters" id="membership">Masters
+            <input type="checkbox" name="membership" value="Others" id="membership">Others
+        </div>
+
+
+
+
+
+        
+<!--**method for Submit-->
+        <div>
+            <!--**using input tag-->
+            <input type="submit" value="Submit">
+            <!--**using button tag-->
+            <button type="submit">Submit</button>
+
+            <!--todo: Reset Button-->
+            <button type="reset">Reset</button>
+        </div>
+
+
+    </form>
 </body>
 </html>
