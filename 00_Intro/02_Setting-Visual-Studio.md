@@ -5,7 +5,7 @@
 <li>Download Visual Studio Code <a href="https://code.visualstudio.com/download">Visual Studio Code Download</a>
 <ul>
     <li>Live Server and Live Preview</li>
-    <li>Prettier - Code formatter </li>
+    <li>Prettier - Code formatter - in VS code Settings change 'default formatter' to Prettier</li>
 </ul>
 </li>
 </ul>
