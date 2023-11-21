@@ -6,6 +6,9 @@
 <ul>
     <li>Live Server and Live Preview</li>
     <li>Prettier - Code formatter - in VS code Settings change 'default formatter' to Prettier</li>
+    <li>Auto Rename Tag
+    <li>Color Highlighter
+    <li>Image Preview
 </ul>
 </li>
 </ul>
