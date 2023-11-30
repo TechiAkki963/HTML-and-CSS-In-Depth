@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CSS Challenge 1</title>
+  </head>
+  <body>
+    <!--1.Create a div id='container for the main form'-->
+    <!--Step 2: inside the main container create a 'div' class="form wrap" for the form and footer for the policy-->
+    <!--Step 3 : Create the 'Sign UP' heading and parargraph-->
+    <!--Step 4 : Create a form using the form tag-->
+    <!--Step 5 : Create label for 'First Name', "Last Name", "Email" and "Password"-->
+    <!--Step 6: Wrap the label in a div class="form-group"-->
+    <!--Step 7: create a submit button-->
+    <!--Step 8: Cretae a para and link for Terms & condition and Privacy Policy-->
+
+    <div id="container">
+      <div class="form-wrap">
+        <h1>Sign Up</h1>
+        <p>it's free and only takes a min</p>
+        <form action="">
+          <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input type="text" name="firstName " id="first-name" />
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input type="text" name="lasttName " id="last-name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="Password">Password</label>
+            <input type="password" name="password" id="password" />
+          </div>
+          <button type="submit" class="btn">Sign Up</button>
+          <p class="bottom-text">
+            By clicking the Sign Up button, you agree to our
+            <a href="#">Terms & Conditions</a> and
+            <a href="#">Privacy Policy</a>
+          </p>
+        </form>
+      </div>
+      <footer>
+        <p>Already have an account? <a href="#">Login Here</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
