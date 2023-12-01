@@ -87,6 +87,11 @@ aside {
 .related {
   list-style: none;
 }
+
+/**Pseudo class*/
+.related li:nth-child(odd) {
+  background-color: #fff4db;
+}
 /*ul {
   list-style: none;
 }*/
