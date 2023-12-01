@@ -88,9 +88,32 @@ aside {
   list-style: none;
 }
 
+/**todo: Styling Links*/
+/**Todo: LVHA*/
+a:link {
+  color: #fcb000;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #fcb000;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: #fff4db;
+  opacity: 0.7;
+}
+
 /**Pseudo class*/
 .related li:nth-child(odd) {
   background-color: #fff4db;
+  transition: 0.5s;
 }
 /*ul {
   list-style: none;
