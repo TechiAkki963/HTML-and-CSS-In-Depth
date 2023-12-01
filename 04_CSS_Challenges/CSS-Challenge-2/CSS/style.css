@@ -7,7 +7,17 @@ h4,
 p,
 li {
   font-family: sans-serif;
-  color: #333;
+  color: #444;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+h1,
+h2,
+h3 {
+  color: #fcb000;
 }
 
 /**Font Styling*/
@@ -17,6 +27,7 @@ h1 {
   font-style: italic;
   /** font-family: sans-serif;*/
   /**color: #333; */
+  color: #fcb000;
 }
 
 h2 {
@@ -58,13 +69,39 @@ article header p {
   font-style: italic;
 }
 
-/** Id and Classes*/
+/** Id Author*/
 #author {
   font-style: italic;
+}
+
+/**Element Selector*/
+aside {
+  background-color: #f7f7f7;
+  /*border-width: 5px;
+  border-color: #444;
+  border-style: solid;*/
+  border-top: 5px #fcb000 solid;
+  border-bottom: 5px #fcb000 solid;
+}
+
+.related {
+  list-style: none;
+}
+/*ul {
+  list-style: none;
+}*/
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 /**Combining Selectors*/
 /**Method 2*/
 footer p {
+  font-size: 16px;
+}
+
+/** Id Footer*/
+#copyright {
   font-size: 16px;
 }
