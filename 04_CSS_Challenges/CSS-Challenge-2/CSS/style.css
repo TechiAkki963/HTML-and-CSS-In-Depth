@@ -1,5 +1,11 @@
+body {
+  color: #444;
+  font-family: sans-serif;
+}
+
 /**Combining Selectors*/
 /**Method 1 */
+/**
 h1,
 h2,
 h3,
@@ -9,7 +15,7 @@ li {
   font-family: sans-serif;
   color: #444;
 }
-
+*/
 .main-header {
   background-color: #f7f7f7;
 }
