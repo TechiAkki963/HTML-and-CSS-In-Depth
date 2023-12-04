@@ -8,15 +8,30 @@
 .container {
   background-color: lightslategray;
   padding: 20px 30px;
+  margin: auto;
 }
 
 .cart-wrap {
+  position: relative;
   display: inline-block;
   background-color: aliceblue;
   width: 240px;
   margin: 30px auto;
   padding: 20px;
   line-height: 1.8;
+}
+
+.sale {
+  position: absolute;
+  width: 80px;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: #fff;
+  padding-top: 3px;
+  padding: 3px 10px;
+  border: none;
+  font-weight: bold;
 }
 
 .cart-wrap h3 {
