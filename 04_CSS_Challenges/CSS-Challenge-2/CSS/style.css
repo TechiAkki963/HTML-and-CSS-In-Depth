@@ -162,10 +162,12 @@ a:active {
 }
 
 /**Pseudo class*/
+/**
 .related li:nth-child(odd) {
   background-color: #fff4db;
   transition: 0.5s;
 }
+*/
 /*ul {
   list-style: none;
 }*/
