@@ -1,5 +1,7 @@
 * {
-  /**Commenting Important*/
+  /**Global Reset*/
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -27,6 +29,16 @@ li {
   padding-left: 40px;
   padding-right: 40px;*/
   padding: 20px 40px;
+  margin-bottom: 60px;
+  height: 80px;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+.post-header {
+  margin-bottom: 40px;
 }
 
 h1,
@@ -49,12 +61,15 @@ h2 {
   font-size: 40px;
   /** font-family: sans-serif;*/
   /**color: #333; */
+  margin-bottom: 30px;
 }
 
 h3 {
   font-size: 30px;
   /** font-family: sans-serif;*/
   /**color: #333; */
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 h4 {
@@ -70,8 +85,14 @@ p {
   line-height: 1.5;
   /** font-family: sans-serif;*/
   /**color: #333; */
+  margin-bottom: 15px;
 }
 
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
 li {
   font-size: 20px;
   /** font-family: sans-serif;*/
@@ -105,6 +126,8 @@ aside {
   border-style: solid;*/
   border-top: 5px #fcb000 solid;
   border-bottom: 5px #fcb000 solid;
+  padding: 50px 0;
+  width: 500px;
 }
 
 .related {
@@ -155,4 +178,9 @@ footer p {
 /** Id Footer*/
 #copyright {
   font-size: 16px;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
 }
