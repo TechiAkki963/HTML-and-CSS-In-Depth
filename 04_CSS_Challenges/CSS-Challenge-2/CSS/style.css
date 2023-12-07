@@ -235,3 +235,29 @@ h2::after {
   top: -10px;
   right: -15px;
 }
+
+/**Blog Page*/
+
+.scroll {
+  display: block;
+  border: 5px solid #fcb000;
+  padding: 50px;
+  margin-top: 5px;
+  width: 300px;
+  height: 50px;
+  overflow: scroll;
+}
+
+.container-blog {
+  width: 700px;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
